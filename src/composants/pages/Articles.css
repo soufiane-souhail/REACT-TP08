@@ -1,0 +1,76 @@
+.align-items-right{
+    margin: 1em;
+}
+.divw{
+    margin: 1em;
+    width: 18em;
+    position: relative;
+
+}
+.h2{
+    height: 30%;
+    font-size: 17px;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    
+
+}
+.h2::before{
+
+    
+
+}
+.p{
+    height: 52%;
+}
+.a::before{
+    content: 'Afficher Plus';
+    text-align: center;
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-style: normal;
+    font-weight: bold;
+    background-color: white;
+    opacity: 0.7;
+    bottom: -17%;
+    top:0%;
+    left: 0;
+    right: 0;
+    border-radius: 1em;
+    
+}
+.a:hover:before   {
+    display: block;
+}
+.a{
+    height: 10%;
+    background-color: #F3FFBD;
+    padding-right: 1em;
+    padding-left: 3px;
+    text-decoration: none;
+}
+.a:active{
+    background-color: #FF1654;
+    color: #F3FFBD;
+
+}
+.divart:hover{
+    -webkit-box-shadow: 0px 0px 10px #464646;
+    -moz-box-shadow: 0px 0px 10px #464646;
+    box-shadow: 0px 0px 10px #464646;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    border-radius: 1em;
+    color: #F3FFBD;
+    background-color: #70C1B3;
+}
+.flex{
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;  
+
+}

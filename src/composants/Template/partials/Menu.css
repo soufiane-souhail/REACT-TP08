@@ -1,0 +1,56 @@
+
+.rright{
+    float: right !important;
+    margin-right: -15px;
+}
+
+.main_nav ul{
+    font-size: 0;
+}
+.main_nav li{
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+}
+.main_nav li :after{
+    content: '';
+    display: none;
+    position: absolute;
+    background-color:#deca62;
+    width: 3px;
+    height: 15px;
+    top: 25px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+
+}
+
+
+.main_nav li :before{
+    content: '';
+    display: none;
+    position: absolute;
+    background-color: #deca62;
+    width: 3px;
+    height: 15px;
+    top: -15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+.main_nav li :hover:after,
+.main_nav li :hover:before{
+    display: block;
+}
+.main_nav li a{
+    text-decoration: none ;
+    color:white;
+    padding: 12px 12px;
+}
+
+
+*{
+    
+}
